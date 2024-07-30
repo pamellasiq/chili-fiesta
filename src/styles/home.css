@@ -31,15 +31,23 @@
 
 #cta_buttons a{
     text-decoration: none;
-    color: #1d1d1dad;
 }
 
 #phone_button {
     display: flex;
     gap: 8px;
     align-items: center;
-    background-color: #fff;
     padding: 8px 14px;
     font-weight: 500;
     border-radius: 10px;
+    background-color: #F24535;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#phone_button:hover{
+    background-color: #ffffff;
+    color: #F24535;
 }
