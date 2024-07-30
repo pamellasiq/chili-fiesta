@@ -1,0 +1,45 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 86px);
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title{
+    font-size: 4rem;
+    color: #1d1d1dad;
+}
+
+#cta span{
+    color: #F24535;
+}
+
+#cta .description{
+    font-size: 1.2rem;
+}
+
+#cta_buttons{
+    display: flex;
+    gap: 24px;
+}
+
+#cta_buttons a{
+    text-decoration: none;
+    color: #1d1d1dad;
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 14px;
+    font-weight: 500;
+    border-radius: 10px;
+}

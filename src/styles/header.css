@@ -54,6 +54,14 @@ header{
         color: #F24535;
     }
 
+    #btn_mobile i {
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    #btn_mobile i.fa-x {
+        transform: rotate(90deg);
+    }
+
     #nav_list,
     #navbar .btn-default{
         display: none;

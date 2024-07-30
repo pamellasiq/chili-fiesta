@@ -9,8 +9,19 @@
     box-sizing: border-box;
 }
 
+.no-select {
+    user-select: none; /* Para a maioria dos navegadores */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 body{
     background-color: #FFE1C9;
+}
+
+section{
+    padding: 28px 8%;
 }
 
 .btn-default{
@@ -24,9 +35,34 @@ body{
     font-weight: 600;
     color: #fff;
     transition: background-color .3s ease;
+    cursor: pointer;
 }
 
 .btn-default:hover{
     background-color: #ffffff;
     color: #F24535;
+}
+
+.social-media-buttons{
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 70px;
+    text-decoration: none;
+    color: #1d1d1d;
+    transition: background-color .3s ease;
+}
+
+.social-media-buttons a:hover{
+    color: #F24535;
+    
 }
