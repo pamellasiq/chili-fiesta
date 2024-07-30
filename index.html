@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Landing page</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-pepper-hot" id="nav_logo">chili fiesta</i>
+            <i class="fa-solid fa-pepper-hot" id="nav_logo"><a>CHILI FIESTA</a></i>
             <ul id="nav_list">
-                <li class="nav_item">
+                <li class="nav_item active">
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav_item">
@@ -30,25 +31,11 @@
 
             <button id="btn_mobile">
                 <i class="fa-solid fa-bars"></i>
-                    <ul id="nav_list">
-                <li class="nav_item">
-                    <a href="#home">Início</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#feedback">Avaliações</a>
-                </li>
-            </ul>
-
-            <button class="btn-default">
-                Peça aqui
-            </button>
             </button>
         </nav>
+
         <div id="mobile_menu">
-            <ul id="nav_list">
+                <ul id="mobile_nav_list">
                 <li class="nav_item">
                     <a href="#home">Início</a>
                 </li>
@@ -65,5 +52,7 @@
             </button>
         </div>
     </header>
+
+    <script src="src/scripts/script.js"></script>
 </body>
 </html>
