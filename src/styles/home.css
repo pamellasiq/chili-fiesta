@@ -1,6 +1,7 @@
 #home {
     display: flex;
     min-height: calc(100vh - 86px);
+    position: relative;
 }
 
 #cta{
@@ -17,7 +18,7 @@
 }
 
 #cta span{
-    color: #F24535;
+    color: var(--color-primary-2);
 }
 
 #cta .description{
@@ -40,7 +41,7 @@
     padding: 8px 14px;
     font-weight: 500;
     border-radius: 10px;
-    background-color: #F24535;
+    background-color: var(--color-primary-2);
     transition: background-color .3s ease;
     cursor: pointer;
     color: #fff;
@@ -49,5 +50,62 @@
 
 #phone_button:hover{
     background-color: #ffffff;
-    color: #F24535;
+    color: var(--color-primary-2);
 }
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+}
+
+#banner img{
+    height: 100%;
+    width: fit-content;
+    z-index: 2;
+}
+
+.shape {
+    background-color: #F29979;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1170px){
+
+    #home{
+        min-height: 100%;
+        padding-top: 0;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape{
+        display: none;
+    }
+
+    #cta{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #cta .title{
+        font-size: 2rem;
+        color: #1d1d1dad;
+    }
+
+    #cta .description{
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+}
+
+

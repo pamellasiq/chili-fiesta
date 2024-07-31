@@ -1,6 +1,10 @@
 header{
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1)be;
+    z-index: 3;
 }
 
 #navbar{
@@ -12,7 +16,7 @@ header{
 
 #nav_logo{
     font-size: 24px;
-    color: #F24535;
+    color: var(--color-primary-2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +37,7 @@ header{
 
 .nav_item.active a{
     color: #1d1d1dad;
-    border-bottom: 3px solid #F24535;
+    border-bottom: 3px solid var(--color-primary-2);
 }
 
 #btn_mobile{
@@ -51,7 +55,7 @@ header{
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
-        color: #F24535;
+        color: var(--color-primary-2);
     }
 
     #btn_mobile i {

@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Landing page</title>
 </head>
@@ -22,7 +20,7 @@
                     <a href="#menu">Cardápio</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#feedback">Avaliações</a>
+                    <a href="#testimonals">Avaliações</a>
                 </li>
             </ul>
 
@@ -44,7 +42,7 @@
                     <a href="#menu">Cardápio</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#feedback">Avaliações</a>
+                    <a href="#testimonals">Avaliações</a>
                 </li>
             </ul>
 
@@ -56,7 +54,6 @@
 
     <main id="content">
         <section id="home">
-            <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">Experimente o verdadeiro sabor do
                     <span>México!</span>
@@ -93,7 +90,206 @@
                 <img src="src/images/banner.png" alt="Imagens de Comidas Mexicanas">
             </div>
         </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/img1.png" class="dish-image" alt="Imagem de Tacos">
+                <h3 class="dish-title">
+                    Taco de Carnitas
+                </h3>
+                <span class="dish-description">
+                    Carne suína preparada e maturada por 4 horas,
+                    cozida num tacho de cobre do jeito “michoacano”,
+                    acompanhado de cebola, coentro e molho de pimenta.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$29,00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"> Comprar</i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/img2.png" class="dish-image" alt="Imagem de Tacos">
+                <h3 class="dish-title">
+                    Burrito
+                </h3>
+                <span class="dish-description">
+                    Suculentas tiras de carne bovina à milanesa servidas em uma tortilla
+                    de 30cm com tutu de feijão, mussarela, guacamole, sour cream, repolho
+                    temperado com especiarias mexicanas e pico de gallo (cebola, tomate e coentro). Pesa em torno de 450g.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$42,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"> Comprar</i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/img3.png" class="dish-image" alt="Imagem de Tacos">
+                <h3 class="dish-title">
+                    Pozole
+                </h3>
+                <span class="dish-description">
+                    Sopa mexicana feita com grãos de milho hominy e carne de porco ou frango,
+                    cozida lentamente com especiarias. Servido com guarnições frescas como rabanetes,
+                    repolho, cebola e coentro, cada tigela é finalizada com um toque de limão.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$52,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"> Comprar</i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/img4.png" class="dish-image" alt="Imagem de Tacos">
+                <h3 class="dish-title">
+                    Pozole Premium
+                </h3>
+                <span class="dish-description">
+                    Sopa mexicana feita com grãos de milho hominy e carne de porco ou frango,
+                    cozida lentamente com especiarias. Servido com guarnições frescas como rabanetes,
+                    repolho, cebola e coentro, cada tigela é finalizada com um toque de limão.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>R$62,90</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"> Comprar</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="testimonals">
+            <img src="src/images/chefedit.png" id="testimonals_chef" alt="Foto de dois cozinheiros sorrindo">
+
+            <div id="testimonals_content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós!</h3>
+
+                <div id="feedbacks">
+
+                    <div class="feedback">
+                        <img src="src/images/avatar1.png" class="feedback-avatar" alt="Foto de perfil">
+
+                        <div class="feedback_content">
+                            <p>Marcela Andrade
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>
+                                "O Chili Fiesta é incrível! Os tacos são deliciosos, e o guacamole é o melhor
+                                que já provei. Ótima atmosfera e atendimento amigável!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar2.png" class="feedback-avatar" alt="Foto de perfil">
+
+                        <div class="feedback_content">
+                            <p>Raynara Barbosa
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            </p>
+                            <p>
+                                "A comida no Chili Fiesta é incrível! O pozole estava perfeito,
+                                e o atendimento foi excelente. Voltarei com certeza!"
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 by &lt;/pamellasiq&gt;. All rights Reserved.</p>
+    </footer>
 
     <script src="src/scripts/script.js"></script>
 </body>
