@@ -2,7 +2,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('menu.css');
-@import url('testimonals.css');
+@import url('testimonials.css');
 @import url('footer.css');
 
 :root{
@@ -16,6 +16,7 @@
     padding: 0;
     /* border-box para auxilio na responsividade */
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .no-select {
@@ -80,6 +81,7 @@ section{
 .section-title{
     color: var(--color-primary-2);
     font-size: 1.563rem;
+    margin-top: 60px;
 }
 
 .section-subtitle{

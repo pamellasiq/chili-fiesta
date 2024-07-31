@@ -1,21 +1,21 @@
-#testimonals{
-    min-height: calc(100vh - 91px);
+#testimonials{
+    min-height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
 }
 
-#testimonals_chef{
+#testimonials_chef{
     width: 500px;
     height: auto;
 }
 
-#testimonals .section-subtitle{
+#testimonials .section-subtitle{
     font-size: 3rem;
 }
 
-#testimonals_content{
+#testimonials_content{
     width: 50%;
 }
 
@@ -56,21 +56,21 @@
 @media screen and (max-width: 1170px){
 
 
-    #testimonals{
+    #testimonials{
         flex-direction: column;
         min-height: 60vh;
     }
 
-    #testimonals .section-subtitle{
+    #testimonials .section-subtitle{
         text-align: center;
         font-size: 30px;
     }
 
-    #testimonals_chef{
+    #testimonials_chef{
         display: none;
     }
 
-    #testimonals_content{
+    #testimonials_content{
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -80,21 +80,21 @@
 
 
 @media screen and (max-width: 450px) {
-    #testimonals{
+    #testimonials{
         flex-direction: column;
         min-height: 60vh;
     }
 
-    #testimonals_content .section-subtitle{
+    #testimonials_content .section-subtitle{
         text-align: center;
         font-size: 14px;
     }
 
-    #testimonals_chef{
+    #testimonials_chef{
         display: none;
     }
 
-    #testimonals_content{
+    #testimonials_content{
         width: 80%;
         display: flex;
         flex-direction: column;
