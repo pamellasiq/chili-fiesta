@@ -1,6 +1,6 @@
 # Chili Fiesta 🌶️
 
-Bem-vindo ao **Chili Fiesta**! Este é um projeto de um site para um restaurante mexicano, oferecendo uma experiência visual simples e agradável para os amantes da culinária mexicana.
+Bem-vindo ao **Chili Fiesta**! Este é um projeto de uma landing page para um restaurante mexicano, oferecendo uma experiência visual simples e agradável para os amantes da culinária mexicana.
 
 ![Chili Fiesta Screenshot](https://i.imgur.com/c24d6b0.png)
 
@@ -12,8 +12,7 @@ Bem-vindo ao **Chili Fiesta**! Este é um projeto de um site para um restaurante
 4. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 5. [Funcionalidades](#funcionalidades)
 6. [Contribuições](#contribuições)
-7. [Licença](#licença)
-8. [Contato](#contato)
+7. [Contato](#contato)
 
 ## Demonstração do Projeto
 
